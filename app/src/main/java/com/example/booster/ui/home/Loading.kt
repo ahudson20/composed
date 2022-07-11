@@ -1,0 +1,27 @@
+package com.example.booster.ui.home
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.CircularProgressIndicator
+import androidx.compose.material.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import com.example.booster.ui.theme.BoosterSpacings
+
+@Composable
+fun LoadingScreen() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier
+            .fillMaxSize()
+            .background(MaterialTheme.colors.background)
+    ) {
+        CircularProgressIndicator(
+            Modifier
+                .width(BoosterSpacings.spaceXxLarge)
+                .height(BoosterSpacings.spaceXxLarge)
+        )
+    }
+}

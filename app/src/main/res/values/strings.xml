@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Booster</string>
+    <string name="top_bar_title">Title</string>
+    <string name="start_button_title">Start</string>
+
+    <string name="nav_drawer_title">Menu</string>
+    <string name="nav_drawer_home">Home</string>
+    <string name="nav_drawer_form">Form</string>
+    <string name="title_activity_main2">ButtonActivity</string>
+
+    <string name="submit_button_text">Submit</string>
+
+    <string name="investor_type_title">Investor Type</string>
+
+</resources>
