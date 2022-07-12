@@ -1,6 +1,6 @@
 # Booster
 
-Created using Jetpack Compose. It is a "single" activity app (MVVM) - the main screen functionality is a single activity.
+Created using Jetpack Compose. It is a "single" activity app (MVVM) - the main screen functionality is a single activity. A debug apk is already build and included above.
 
 Jetpack Compose: 1.1.0-beta01\
 Target SDK version: 32\

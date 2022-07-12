@@ -33,3 +33,11 @@ object HomeScreenData {
                 "Statement and talk with a financial adviser to help you plan for your future. A disclosure statement is " +
                 "available from them, on request and free of charge."
 }
+
+enum class AccountType {
+    Defensive,
+    Conservative,
+    Balanced,
+    Growth,
+    AggressiveGrowth
+}
